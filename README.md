@@ -1,7 +1,7 @@
 # Firstview Developers Test
 This is a test that will help us review the quality of work for developers. This test is for developers ranging from Juniors - Seniors.
 
-# Process: 
+# Process
 - Submit your CV to jobs@hellofirstview.com (Ignore this step if a recruiter has already contacted us).
 - Fork this repository to your own account.
 - Develop your application on your own.
@@ -19,7 +19,7 @@ A company must consist of the following info:
 An Asset must consist of the following info:
   Description, model, rand value
   
-# Assessment Points.
+# Assessment Points
 You will be assesed on the approach, quality, scalability, efficiency and security of your product. The usage of modern practices will be benificial. You are free to make use of any frontend frameworks/tools you see fit. You will not be assessed on the HTML/CSS portions of your product, however making use of something like Bulma/Bootstrap would be great.
 
 # Optional Extra tasks
