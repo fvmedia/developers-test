@@ -89,3 +89,7 @@ C:\Users\Adrian\Source\Repos\developers-test\DevelopmentTest\DevelopmentTest\obj
 C:\Users\Adrian\Source\Repos\developers-test\DevelopmentTest\DevelopmentTest\obj\Debug\DevelopmentTest.csproj.CopyComplete
 C:\Users\Adrian\Source\Repos\developers-test\DevelopmentTest\DevelopmentTest\obj\Debug\DevelopmentTest.dll
 C:\Users\Adrian\Source\Repos\developers-test\DevelopmentTest\DevelopmentTest\obj\Debug\DevelopmentTest.pdb
+C:\Users\Adrian\Source\Repos\developers-test\DevelopmentTest\DevelopmentTest\bin\EntityFramework.dll
+C:\Users\Adrian\Source\Repos\developers-test\DevelopmentTest\DevelopmentTest\bin\EntityFramework.SqlServer.dll
+C:\Users\Adrian\Source\Repos\developers-test\DevelopmentTest\DevelopmentTest\bin\EntityFramework.xml
+C:\Users\Adrian\Source\Repos\developers-test\DevelopmentTest\DevelopmentTest\bin\EntityFramework.SqlServer.xml
