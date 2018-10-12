@@ -1,0 +1,96 @@
+﻿body { padding-top: 50px; padding-bottom: 20px; }
+
+/* Set padding to keep content from hitting the edges */
+.body-content { padding-left: 15px; padding-right: 15px; }
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt { white-space: normal; }
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea { max-width: 280px; }
+ul.nav.navbar-nav { margin: 0 auto !important; display: table !important; float: none !important; }
+footer { text-align: center !important; }
+.form-horizontal .form-group { width: 25% !important; margin: 15px auto; }
+.btn { width: 49% !important; }
+.navbar-brand { font-size: 36px; color: #fff !important; padding: 20px; font-weight: 400; }
+    .navbar-brand:hover { color: #ccc !important; }
+
+
+
+.cssload-preloader { position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; background: #fff; height: 100%; width: 100%; z-index: 599999999 !important; }
+    .cssload-preloader > .cssload-preloader-box { position: absolute; height: 29px; top: 50%; left: 50%; margin: -15px 0 0 -146px; perspective: 195px; -o-perspective: 195px; -ms-perspective: 195px; -webkit-perspective: 195px; -moz-perspective: 195px; }
+    .cssload-preloader .cssload-preloader-box > div { position: relative; width: 29px; height: 29px; background: rgb(204,204,204); float: left; text-align: center; line-height: 29px; font-family: Verdana; font-size: 19px; color: rgb(255,255,255); }
+        .cssload-preloader .cssload-preloader-box > div:nth-child(1) { background: #000; margin-right: 15px; animation: cssload-movement 690ms ease 0ms infinite alternate; -o-animation: cssload-movement 690ms ease 0ms infinite alternate; -ms-animation: cssload-movement 690ms ease 0ms infinite alternate; -webkit-animation: cssload-movement 690ms ease 0ms infinite alternate; -moz-animation: cssload-movement 690ms ease 0ms infinite alternate; }
+        .cssload-preloader .cssload-preloader-box > div:nth-child(2) { background: #000; margin-right: 15px; animation: cssload-movement 690ms ease 86.25ms infinite alternate; -o-animation: cssload-movement 690ms ease 86.25ms infinite alternate; -ms-animation: cssload-movement 690ms ease 86.25ms infinite alternate; -webkit-animation: cssload-movement 690ms ease 86.25ms infinite alternate; -moz-animation: cssload-movement 690ms ease 86.25ms infinite alternate; }
+        .cssload-preloader .cssload-preloader-box > div:nth-child(3) { background: #000; margin-right: 15px; animation: cssload-movement 690ms ease 172.5ms infinite alternate; -o-animation: cssload-movement 690ms ease 172.5ms infinite alternate; -ms-animation: cssload-movement 690ms ease 172.5ms infinite alternate; -webkit-animation: cssload-movement 690ms ease 172.5ms infinite alternate; -moz-animation: cssload-movement 690ms ease 172.5ms infinite alternate; }
+        .cssload-preloader .cssload-preloader-box > div:nth-child(4) { background: #000; margin-right: 15px; animation: cssload-movement 690ms ease 258.75ms infinite alternate; -o-animation: cssload-movement 690ms ease 258.75ms infinite alternate; -ms-animation: cssload-movement 690ms ease 258.75ms infinite alternate; -webkit-animation: cssload-movement 690ms ease 258.75ms infinite alternate; -moz-animation: cssload-movement 690ms ease 258.75ms infinite alternate; }
+        .cssload-preloader .cssload-preloader-box > div:nth-child(5) { background: #000; margin-right: 15px; animation: cssload-movement 690ms ease 345ms infinite alternate; -o-animation: cssload-movement 690ms ease 345ms infinite alternate; -ms-animation: cssload-movement 690ms ease 345ms infinite alternate; -webkit-animation: cssload-movement 690ms ease 345ms infinite alternate; -moz-animation: cssload-movement 690ms ease 345ms infinite alternate; }
+        .cssload-preloader .cssload-preloader-box > div:nth-child(6) { background: #000; margin-right: 15px; animation: cssload-movement 690ms ease 431.25ms infinite alternate; -o-animation: cssload-movement 690ms ease 431.25ms infinite alternate; -ms-animation: cssload-movement 690ms ease 431.25ms infinite alternate; -webkit-animation: cssload-movement 690ms ease 431.25ms infinite alternate; -moz-animation: cssload-movement 690ms ease 431.25ms infinite alternate; }
+        .cssload-preloader .cssload-preloader-box > div:nth-child(7) { background: #000; margin-right: 15px; animation: cssload-movement 690ms ease 517.5ms infinite alternate; -o-animation: cssload-movement 690ms ease 517.5ms infinite alternate; -ms-animation: cssload-movement 690ms ease 517.5ms infinite alternate; -webkit-animation: cssload-movement 690ms ease 517.5ms infinite alternate; -moz-animation: cssload-movement 690ms ease 517.5ms infinite alternate; }
+        .cssload-preloader .cssload-preloader-box > div:nth-child(8) { background: #000; margin-right: 15px; animation: cssload-movement 690ms ease 517.5ms infinite alternate; -o-animation: cssload-movement 690ms ease 517.5ms infinite alternate; -ms-animation: cssload-movement 690ms ease 517.5ms infinite alternate; -webkit-animation: cssload-movement 690ms ease 517.5ms infinite alternate; -moz-animation: cssload-movement 690ms ease 517.5ms infinite alternate; }
+        .cssload-preloader .cssload-preloader-box > div:nth-child(9) { background: #3366FF; margin-right: 15px; animation: cssload-movement 690ms ease 603.75ms infinite alternate; -o-animation: cssload-movement 690ms ease 603.75ms infinite alternate; -ms-animation: cssload-movement 690ms ease 603.75ms infinite alternate; -webkit-animation: cssload-movement 690ms ease 603.75ms infinite alternate; -moz-animation: cssload-movement 690ms ease 603.75ms infinite alternate; }
+
+@keyframes cssload-movement {
+    from { transform: scale(1.0) translateY(0px) rotateX(0deg); box-shadow: 0 0 0 rgba(0,0,0,0); }
+    to { transform: scale(1.5) translateY(-24px) rotateX(45deg); box-shadow: 0 24px 39px rgba(0,0,0,0.4); background: #3399FF; }
+}
+
+@-o-keyframes cssload-movement {
+    from { -o-transform: scale(1.0) translateY(0px) rotateX(0deg); box-shadow: 0 0 0 rgba(0,0,0,0); }
+    to { -o-transform: scale(1.5) translateY(-24px) rotateX(45deg); box-shadow: 0 24px 39px rgba(0,0,0,0.4); background: #3399FF; }
+}
+
+@-ms-keyframes cssload-movement {
+    from { -ms-transform: scale(1.0) translateY(0px) rotateX(0deg); box-shadow: 0 0 0 rgba(0,0,0,0); }
+    to { -ms-transform: scale(1.5) translateY(-24px) rotateX(45deg); box-shadow: 0 24px 39px rgba(0,0,0,0.4); background: #3399FF; }
+}
+
+@-webkit-keyframes cssload-movement {
+    from { -webkit-transform: scale(1.0) translateY(0px) rotateX(0deg); box-shadow: 0 0 0 rgba(0,0,0,0); }
+    to { -webkit-transform: scale(1.5) translateY(-24px) rotateX(45deg); box-shadow: 0 24px 39px rgba(0,0,0,0.4); background: #3399FF; }
+}
+
+@-moz-keyframes cssload-movement {
+    from { -moz-transform: scale(1.0) translateY(0px) rotateX`(0deg); box-shadow: 0 0 0 rgba(0,0,0,0); }
+    to { -moz-transform: scale(1.5) translateY(-24px) rotateX(45deg`); box-shadow: 0 24px 39px rgba(0,0,0,0.4`); background: #3399FF; }
+}
+
+.object_head { width: 100%; text-align: center; }
+
+body > div.col-lg-12.col-md-12.col-xs-12.cssload-preloader > div:nth-child(2) { margin: 0 auto; margin-left: -40px; }
+.btn1 { background-color: #3399FF; color: #fff; }
+.main-block.col-lg-12 { margin-top: 40px; }
+
+@media only screen and (max-width: 1280px) {
+
+    .cssload-preloader > .cssload-preloader-box { left: 48% !important; }
+}
+
+
+
+
+@media only screen and (max-width: 960px) {
+    .navbar-collapse.collapse { display: block !important; }
+    button.navbar-toggle { display: none !important; }
+    .form-horizontal .form-group { width: 100% !important; }
+    input, select, textarea { max-width: 100% !important; }
+    .btn { width: 49.7% !important; }
+    .cssload-preloader > .cssload-preloader-box { left: 44% !important; }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .btn { width: 49.4% !important; }
+}
+
+@media only screen and (max-width: 479px) {
+    .navbar-brand { font-size: 20px !important; }
+    .btn { width: 49% !important; }
+    .cssload-preloader .cssload-preloader-box > div { width: 20px !important; height: 29px !important; font-size: 12px; }
+    body > div.col-lg-12.col-md-12.col-xs-12.cssload-preloader > div:nth-child(1) { margin-left: -124px !important; }
+}
