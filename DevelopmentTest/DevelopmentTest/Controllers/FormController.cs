@@ -70,20 +70,21 @@ namespace DevelopmentTest.Controllers
                 string temp;
 
 
-                
+          
                 temp = @"
-                   <div> " +
-                    "<h1> Good Day " + test_Form.Name + "</h1>" +
-                    "<p>Thank you for filling out the form.</br>Please see your details before:</p>" +
-                    "" +
-                    "<p><b>Our Team Will contact you shortly </b></p>" +
+                   <div> " + "<img  src = 'http://adriand.co.za/images/FirstViewLogo.jpg' />" +
+                     "<h1> Good Day " + test_Form.Name + "</h1>" +
+                    "<p><b>Thank you for filling out the form. Please see your details below:</b></p>" +
+                    
+                   
                     "<p><b>Your name is: </b>" + test_Form.Name +"</p>"+
                     "<p><b>Your email is: </b>" + test_Form.Email + "</p>" +
                     "<p><b>The date you selected: </b>" + test_Form.Date + "</p>" +
                     "<p><b>Your password is: </b>" + test_Form.Password + "</p>" +
                     "" +
-                    "<p><b>Thank you For the Opportunity. </b>" +"</p>" +
+                    "<p><b>Thank you for the opportunity. </b>" +"</p>" +
                     "<p><b>Kind Regards. </b>" + "</p>" +
+                    "<p><b>Adrian James Devaraj </b>" + "</p>" +
                     "<p><b>060 566 2030. </b>" + "</p>" +
                       "" +
                     "</div>";
@@ -93,7 +94,7 @@ namespace DevelopmentTest.Controllers
 
 
               
-                return RedirectToAction("Index");
+                return RedirectToAction("create");
             }
 
             return View(test_Form);
